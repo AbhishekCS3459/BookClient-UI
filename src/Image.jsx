@@ -5,7 +5,7 @@ function Image({ src, ...rest }) {
   
   src = src && src.includes('https://')
     ? src
-    : 'https://bookyourplace.onrender.com/uploads/' + src;
+    : 'https://backend-book-3fsl.onrender.com/uploads/' + src;
 
   return <img {...rest} src={src} alt="" />;
 }

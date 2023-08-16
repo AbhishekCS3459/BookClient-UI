@@ -8,17 +8,11 @@ if(!className){
     className='object-cover  rounded-2xl md:h-[100%] '
 }
     return (
-     
-            // <img
-            //   className={className}
-            //   src={'https://bookyourplace.onrender.com/uploads/' + place.photos[index]}
-            //   alt=""
-            // />
             <Image
             className={className}
-            src={'https://bookyourplace.onrender.com/uploads/' + place.photos[index]}
+            src={'https://backend-book-3fsl.onrender.com/uploads/' + place.photos[index]}
             preview={{
-              src: 'https://bookyourplace.onrender.com/uploads/' + place.photos[index],
+              src: 'https://backend-book-3fsl.onrender.com/uploads/' + place.photos[index],
             }}
           />
   )

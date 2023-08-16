@@ -99,7 +99,7 @@ export default function PhotosUploader({ addedPhotos, onChange }) {
             >
               <Image
                 className="rounded-2xl w-full object-cover"
-                src={`https://bookyourplace.onrender.com/uploads/${link}`}
+                src={`https://backend-book-3fsl.onrender.com/uploads/${link}`}
                 alt=""
               />
 
